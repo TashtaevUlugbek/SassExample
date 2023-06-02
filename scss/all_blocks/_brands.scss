@@ -1,0 +1,53 @@
+.brands__container{
+    margin-top: 60px;
+    border-top: 1px solid ;
+    border-bottom: 1px solid;
+}
+.brands__container--info{
+    width: 1200px;
+    height: 36px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h3{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 30px;
+line-height: 36px;
+
+
+color: #000000;
+    }
+    a{
+        
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+color: #33CAFF;
+
+    }
+}
+.brands__container--brands{
+    width: 1200px;
+    height: 238px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    button{
+        width: 32px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        border: 2px solid #33CAFF;
+        color: #33CAFF;
+        font-size: 32px;
+    }
+}

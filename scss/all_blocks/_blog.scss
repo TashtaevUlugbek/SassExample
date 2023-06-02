@@ -1,0 +1,47 @@
+.blog__contrainer{
+    height: 490px;
+    margin-top: 75px;
+    border-top: 1px solid;
+    h3{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: left;
+        
+        color: #000000;
+    }
+    &--list{
+        width: 1113px;
+        height: 384px;
+        margin-left: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        &__item{
+            width: 535px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            p{
+                width: 325px;
+                height: 90px;
+                
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+                /* or 150% */
+                
+                display: flex;
+                align-items: center;
+                letter-spacing: 0.05em;
+                
+                color: #000000;
+            }
+        }
+    }
+}

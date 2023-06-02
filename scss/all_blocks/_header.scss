@@ -1,0 +1,119 @@
+.header__container--navbar{
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__container--navbar__list{
+    width: 772px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__container--navbar__list--item{
+    a{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #000000;
+
+    }
+    a:hover{
+        transition: 0.5s;
+        text-decoration: underline;
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 19px;
+
+color: #33CAFF;
+
+    }
+}
+.header__container--navbar__img{
+    width: 40.94px;
+    height: 43.46px;
+    transition: 2s;
+    background-size: 40.94px 43.46px;
+    background-image: url(../Images/heart1.svg);
+    background-repeat: no-repeat;
+
+}
+.header__container--navbar__img1{
+    width: 40.94px;
+    height: 43.46px;
+    transition: 2s;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 32.74px 32px;
+    background-image: url(/Images/niga1.svg);
+
+}
+.header__container--navbar__img:hover{
+    transition: .1s;
+    background-image: url(/Images/heart.svg);
+}
+.header__container--navbar__img1:hover{
+    transition: .1s;
+    background-image: url(/Images/niga.svg);
+}
+.header__container--navbar__btn{
+    width: 102px;
+    height: 35px;
+    background: #FFFFFF;
+border: 3.5px solid #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+color: #000000;
+
+
+}
+.header__container--navbar__btn:hover{
+    
+background: #33CAFF;
+color: #fff;
+border: none;
+}
+
+.header__container--search{
+    height: 50px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    i{
+        width: 32px;
+        height: 32px;
+        font-size: 32px;
+        color: #fff;
+    }
+}
+.header__container--search__form{
+    width: 977px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    input{
+        width: 844px;
+        height: 17px;
+        background: #000000;
+        border: none;
+        color: #FFFFFF;
+        outline: none;
+    }
+}

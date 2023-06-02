@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.css">
+    <title>LodX</title>
+</head>
+<body>
+    
+    
+    <header class="header">
+        <div class="header__container container">
+            <nav class="header__container--navbar">
+                <a href="#">
+                    <img src="/Images/logo.svg" width="82.86" height="65">
+                </a>
+                <ul class="header__container--navbar__list">
+                    <li class="header__container--navbar__list--item">
+                        <a href="#">
+                            Мужское
+                        </a>
+                    </li>
+                    <li class="header__container--navbar__list--item">
+                        <a href="#">
+                            Женское
+                        </a>
+                    </li>
+                    <li class="header__container--navbar__list--item">
+                        <a href="#">
+                            Детские
+                        </a>
+                    </li>
+                    <li class="header__container--navbar__list--item">
+                        <a href="#">
+                            Безопасная Сделка
+                        </a>
+                    </li>
+                    <li class="header__container--navbar__list--item">
+                        <a href="#">
+                            Правила Пользования
+                        </a>
+                    </li>
+                </ul>
+                <a href="#">
+                    <div class="header__container--navbar__img">
+                        
+                    </div>
+                </a>
+                
+                <a href="#" >
+                    <div class="header__container--navbar__img1">
+                        
+                    </div>
+                    <!-- <img src="./Images/niga1.svg" width="32.74" height="32"> -->
+                </a>
+                <button class="site-btn header__container--navbar__btn">
+                    Contact Us
+                </button>
+            </nav>
+            <section class="header__container--search">
+                <!-- <i class='bx bx-search' ></i> -->
+                <form action="#" class="header__container--search__form">
+                    <label for="search"><i class='bx bx-search' ></i></label>
+                    <input type="text" placeholder="Поиск продукта, бренда или продавца... Поиск продукта, бренда или продавца... Поиск продукта, бренда или продавца..." id="search" required>
+                </form>
+                <!-- <p class="header__container--search__p">
+                    Поиск продукта, бренда или продавца... Поиск продукта, бренда или продавца... Поиск продукта, бренда или продавца... 
+                </p> -->
+            </section>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <div class="hero--container container">
+                <div class="hero--contaoiner__box">
+                    <img src="/Images/hero-img.png" width="320" height="399.82">
+                    <div class="hero--container__box--text">
+                        <h1 class="h1">
+                            Универсальное решение
+                            для ваших нужд в одежде
+                        </h1>
+                        <p class="hero--container__box--text__p">
+                            Все, что вам нужно, чтобы найти идеальный предмет одежды, есть в Lode X. Мы предлагаем одежду ведущих брендов и редактирование изображений на ней.
+                        </p>
+                        <a href="#" id="read-more" >
+                            читать далее 
+                            <i class='bx bx-arrow-back bx-rotate-180 arrow' ></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="catalog">
+            <div class="catalog__container container">
+                <div class="catalog__container--text">
+                    <div class="catalog__container--text__nav">
+                        <ul class="catalog__container--text__nav--links">
+                            <li class="catalog__container--text__nav--links__item">
+                                <a href="#">Новинки</a>
+                            </li>
+                            <li class="catalog__container--text__nav--links__item">
+                                <a href="#">Популярные</a>
+                            </li>
+                            <li class="catalog__ontainer--text__nav--links__item">
+                                <button class="catalog__ontainer--text__nav--links__item--btn">
+                                    Редактировать
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="catalog__container--text__nav--new">
+                        <div class="catalog__container--text__nav--new__info">
+                            <p class="catalog__container--text__nav--new__info--p">
+                                Последние Поступления
+                            </p>
+                            <h2 class="catalog__container--text__nav--new__info--h2">
+                                Новые рисунки
+                            </h2>
+                        </div>
+                        <div class="catalog__container--text__nav--new__sort">
+                            <p class="catalog__container--text__nav--new__sort--p">
+                                Сортировать:
+                            </p>
+                            <select id="select">
+                                <option value="Цена по возрастанию ">
+                                    
+                                    Цена по возрастанию 
+                                    
+                                </option>
+                                <option value="1">
+                                    1
+                                </option>
+                                <option value="2">
+                                    2
+                                    
+                                </option>
+                                <option value="3">
+                                    3
+                                    
+                                </option>
+                                <option value="4">
+                                    4
+                                    
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <ul class="catalog__container--things">
+                    <li class="catalog__container--things__thing">
+                        <div class="catalog__container--things__thing--box">
+                            
+                        </div>
+                        <div class="catalog__container--things__thing--text">
+                            <div class="catalog__container--things__thing--text__info">
+                                <img src="/Images/shield.svg" width="15" height="18">
+                                <p class="catalog__container--things__thing--text__info--p">
+                                    Name   <span> price</span> monetary unit
+                                </p>
+                            </div>
+                            <hr>
+                            <div class="catalog__container--things__thing--text__usage">
+                                <div class="catalog__container--things__thing--text__usage--links">
+                                    <a href="#">
+                                        <img src="/Images/heart2.svg" width="30" height="28.46">
+                                    </a>
+                                    <a href="#">
+                                        <img src="/Images/cart.svg" width="30" height="30.69">
+                                    </a>
+                                </div>
+                                <button class="catalog__container--things__thing--text__usage--btn">
+                                    Подробнее
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="catalog__container--things__thing">
+                        <div class="catalog__container--things__thing--box">
+                            
+                        </div>
+                        <div class="catalog__container--things__thing--text">
+                            <div class="catalog__container--things__thing--text__info">
+                                <img src="/Images/shield.svg" width="15" height="18">
+                                <p class="catalog__container--things__thing--text__info--p">
+                                    Name   <span> price</span> monetary unit
+                                </p>
+                            </div>
+                            <hr>
+                            <div class="catalog__container--things__thing--text__usage">
+                                <div class="catalog__container--things__thing--text__usage--links">
+                                    <a href="#">
+                                        <img src="/Images/heart2.svg" width="30" height="28.46">
+                                    </a>
+                                    <a href="#">
+                                        <img src="/Images/cart.svg" width="30" height="30.69">
+                                    </a>
+                                </div>
+                                <button class="catalog__container--things__thing--text__usage--btn">
+                                    Подробнее
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="catalog__container--things__thing">
+                        <div class="catalog__container--things__thing--box">
+                            
+                        </div>
+                        <div class="catalog__container--things__thing--text">
+                            <div class="catalog__container--things__thing--text__info">
+                                <img src="/Images/shield.svg" width="15" height="18">
+                                <p class="catalog__container--things__thing--text__info--p">
+                                    Name   <span> price</span> monetary unit
+                                </p>
+                            </div>
+                            <hr>
+                            <div class="catalog__container--things__thing--text__usage">
+                                <div class="catalog__container--things__thing--text__usage--links">
+                                    <a href="#">
+                                        <img src="/Images/heart2.svg" width="30" height="28.46">
+                                    </a>
+                                    <a href="#">
+                                        <img src="/Images/cart.svg" width="30" height="30.69">
+                                    </a>
+                                </div>
+                                <button class="catalog__container--things__thing--text__usage--btn">
+                                    Подробнее
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                
+                <ul class="catalog__container--things position">
+                    <li class="catalog__container--things__thing">
+                        <div class="catalog__container--things__thing--box">
+                            
+                        </div>
+                        <div class="catalog__container--things__thing--text">
+                            <div class="catalog__container--things__thing--text__info">
+                                <img src="/Images/shield.svg" width="15" height="18">
+                                <p class="catalog__container--things__thing--text__info--p">
+                                    Name   <span> price</span> monetary unit
+                                </p>
+                            </div>
+                            <hr>
+                            <div class="catalog__container--things__thing--text__usage">
+                                <div class="catalog__container--things__thing--text__usage--links">
+                                    <a href="#">
+                                        <img src="/Images/heart2.svg" width="30" height="28.46">
+                                    </a>
+                                    <a href="#">
+                                        <img src="/Images/cart.svg" width="30" height="30.69">
+                                    </a>
+                                </div>
+                                <button class="catalog__container--things__thing--text__usage--btn">
+                                    Подробнее
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="catalog__container--things__thing">
+                        <div class="catalog__container--things__thing--box">
+                            
+                        </div>
+                        <div class="catalog__container--things__thing--text">
+                            <div class="catalog__container--things__thing--text__info">
+                                <img src="/Images/shield.svg" width="15" height="18">
+                                <p class="catalog__container--things__thing--text__info--p">
+                                    Name   <span> price</span> monetary unit
+                                </p>
+                            </div>
+                            <hr>
+                            <div class="catalog__container--things__thing--text__usage">
+                                <div class="catalog__container--things__thing--text__usage--links">
+                                    <a href="#">
+                                        <img src="/Images/heart2.svg" width="30" height="28.46">
+                                    </a>
+                                    <a href="#">
+                                        <img src="/Images/cart.svg" width="30" height="30.69">
+                                    </a>
+                                </div>
+                                <button class="catalog__container--things__thing--text__usage--btn">
+                                    Подробнее
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    
+                    <li class="catalog__container--things__thing">
+                        <div class="catalog__container--things__thing--box">
+                            
+                        </div>
+                        <div class="catalog__container--things__thing--text">
+                            <div class="catalog__container--things__thing--text__info">
+                                <img src="/Images/shield.svg" width="15" height="18">
+                                <p class="catalog__container--things__thing--text__info--p">
+                                    Name   <span> price</span> monetary unit
+                                </p>
+                            </div>
+                            <hr>
+                            <div class="catalog__container--things__thing--text__usage">
+                                <div class="catalog__container--things__thing--text__usage--links">
+                                    <a href="#">
+                                        <img src="/Images/heart2.svg" width="30" height="28.46">
+                                    </a>
+                                    <a href="#">
+                                        <img src="/Images/cart.svg" width="30" height="30.69">
+                                    </a>
+                                </div>
+                                <button class="catalog__container--things__thing--text__usage--btn">
+                                    Подробнее
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <button class="catalog__container--btn">
+                    Показать Больше
+                </button>
+            </div>
+        </section>
+        <section class="brands">
+            <div class="container brands__container">
+                <ul class="brands__container--info">
+                    <li class="brands__container--info__item">
+                        <h3 class="brands__container--info__item--h3">
+                            Популярне бренды
+                        </h3>
+                    </li>
+                    <li class="brands__container--info__item">
+                        <p class="brands__container--info__item--p">
+                            <a href="#">
+                                Все бренды
+                            </a>
+                        </p>
+                    </li>
+                </ul>
+                <ul class="brands__container--brands">
+                    <li class="brands__container--brands__item">
+                        <button class="brands__container--brands__item--arrow right">
+                            <i class='bx bx-chevron-left' ></i>
+                        </button>
+                    </li>
+                    <li class="brands__container--brands__item">
+                        <img src="./Images/nike.png" width="100" height="100">
+                    </li>
+                    <li class="brands__container--brands__item">
+                        <img src="./Images/adidas.png" width="100" height="100">
+                    </li>
+                    <li class="brands__container--brands__item">
+                        <img src="./Images/versace.png" width="100" height="100">
+                    </li>
+                    <li class="brands__container--brands__item">
+                        <img src="./Images/gucci.png" width="100" height="100">
+                    </li>
+                    <li class="brands__container--brands__item">
+                        <img src="./Images/chanel.png" width="112" height="99">
+                    </li>
+                    <li class="brands__container--brands__item">
+                        <button class="brands__container--brands__item--arrow left">
+                            <i class='bx bx-chevron-right' ></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="designers">
+            <div class="container designers__container">
+                <ul class="designers__container--info">
+                    <li class="designers__container--info__item">
+                        <h3>
+                            Популярные дизайнеры
+                        </h3>
+                    </li>
+                    <li class="designers__container--info__item">
+                        <a href="#">
+                            Все дизайнеры
+                        </a>
+                    </li>
+                </ul>
+                <ul class="designers__container--persons">
+                    <li class="designers__container--persons__icons">
+                        <div class="designers__container--persons__icons--box">
+                            
+                        </div>
+                        <div class="designers__container--persons__icons--text">
+                            <p>
+                                Имя Фамилия
+                            </p>
+                            <div class="ratement">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>    
+                            </div>
+                        </div>
+                    </li>
+                    <li class="designers__container--persons__icons">
+                        <div class="designers__container--persons__icons--box">
+                            
+                        </div>
+                        <div class="designers__container--persons__icons--text">
+                            <p>
+                                Имя Фамилия
+                            </p>
+                            <div class="ratement">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>    
+                            </div>
+                        </div>
+                    </li>
+                    <li class="designers__container--persons__icons">
+                        <div class="designers__container--persons__icons--box">
+                            
+                        </div>
+                        <div class="designers__container--persons__icons--text">
+                            <p>
+                                Имя Фамилия
+                            </p>
+                            <div class="ratement">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>    
+                            </div>
+                        </div>
+                    </li>
+                    <li class="designers__container--persons__icons">
+                        <div class="designers__container--persons__icons--box">
+                            
+                        </div>
+                        <div class="designers__container--persons__icons--text">
+                            <p>
+                                Имя Фамилия
+                            </p>
+                            <div class="ratement">
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>
+                                <i class='bx bxs-star' ></i>    
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="why">
+            <div class="container why__container">
+                <h3 class="why__container--h3">
+                    Почему выбирают имменно нас ?
+                </h3>
+                <ul class="why__container--list">
+                    <li class="why__container--list__item">
+                        <i class='bx bxs-badge-check' ></i>
+                        <div class="why__container--list__item--text">
+                            <h4>Маркетплейс</h4>
+                            <p>
+                                Компания Lode X - позволяет людям редактировать свою одежду.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="why__container--list__item">
+                        <i class='bx bx-slider' ></i>
+                        <div class="why__container--list__item--text">
+                            <h4>Оригинал</h4>
+                            <p>
+                                Мы следим за оригинальностью продаваемых вещей
+                            </p>
+                        </div>
+                    </li>
+                    <li class="why__container--list__item">
+                        <i class='bx bx-shopping-bag' undefined ></i>
+                        <div class="why__container--list__item--text">
+                            <h4>Подбор</h4>
+                            <p>
+                                Удобный подбор одежды по всем параметрам
+                            </p>
+                        </div>
+                    </li>
+                    <li class="why__container--list__item">
+                        <i class='bx bx-dollar-circle' ></i>
+                        <div class="why__container--list__item--text">
+                            <h4>Безопасная сделка</h4>
+                            <p>
+                                Безопасность платежей для покупателей и продавцов
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="blog">
+            <div class="container blog__contrainer">
+                <h3 class="blog__contrainer--h3">
+                    Блог
+                </h3>
+                <ul class="blog__contrainer--list">
+                    <li class="blog__contrainer--list__item">
+                        <img src="./Images/walking-woman.png" width="160" height="155">
+                        <p>
+                            Эта рубашка спасет
+                            Вы сэкономите 40$ при себе 
+                            Следующая онлайн-покупка
+                        </p>
+                    </li>
+                    <li class="blog__contrainer--list__item">
+                        <img src="./Images/stylish-niga.png" width="160" height="155">
+                        <p>
+                            История позади
+                            Lode X: Это 
+                            Стильное  движение
+                        </p>
+                    </li>
+                    <li class="blog__contrainer--list__item">
+                        <img src="./Images/looking-woman.png" width="160" height="155">
+                        <p>
+                            Что надеть
+                            Мадрид: 8 нарядов для
+                            Сделайте так, чтобы вы выглядели местными
+                        </p>
+                    </li>
+                    <li class="blog__contrainer--list__item">
+                        <img src="./Images/jumping-woman.png" width="160" height="155">
+                        <p>
+                            Руководство по покупке
+                            Костюм: Что ты
+                            Надо знать
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container footer__container">
+            <ul class="footer__container--list">
+                <li class="footer__container--list__item">
+                    <h4>
+                        Категории
+                    </h4>
+                    
+                    <a href="">
+                        Мужское
+                    </a>
+                    <a href="">
+                        Женское
+                    </a>
+                    <a href="">
+                        Детское
+                    </a>
+                </li>
+                <li class="footer__container--list__item">
+                    <h4>
+                        О нас
+                    </h4>
+                    
+                    <a href="">
+                        Контакты
+                    </a>
+                    <a href="">
+                        О компании
+                    </a>
+                    <a href="">
+                        Правила Пользования
+                    </a>
+                </li>
+                <li class="footer__container--list__item">
+                    <h4>
+                        Мой Аккаунт
+                    </h4>
+                  
+                    <a href="">
+                        Войти
+                    </a>
+                    <a href="">
+                        Заказы
+                    </a>
+                    <a href="">
+                        Список Желаний
+                    </a>
+                </li>
+                <li class="footer__container--list__item someshit">
+                    <h4>
+                        +998 (99) 280 75 776
+                    </h4>
+                    
+                    <a href="">
+                        example@gmail.com
+                    </a>
+                    <a href="">
+                        example@mail.ru
+                    </a>
+                    <a href="">
+                        <i class='bx bxl-instagram' ></i>
+                        <i class='bx bxl-facebook-square' ></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
